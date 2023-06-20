@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
         <p className="hero__subtitle"> Streamline your car rental experience with our effortless process</p>
         <CustomButton 
-        title ="explore Cars"
+        title ="Explore Cars"
         containerStyles = 'bg-primary-blue text-white rounded-full mt-10'
         handleClick={handleScroll}
         />
