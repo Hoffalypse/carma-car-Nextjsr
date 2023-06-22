@@ -4,7 +4,7 @@ import { footerLinks } from "@/constants"
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col text-black-100 mt-5 border-t border-gray-100">
+    <footer className="z-5 flex flex-col text-black-100 mt-5 border-t border-gray-100">
       <div className="flex max:md:flex-col flex-wrap justify-between gap-5 sm:p-16 p-6 py-10">
         <div className="flex flex-col justify-start items-start gap-6">
             <Image src="/logo.png" alt="logo" width={150} height={30} className="object-contain" />
