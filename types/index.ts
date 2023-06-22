@@ -12,17 +12,18 @@ export interface SearchManufacturerProps {
     setManufacturer:(manufacturer:string) => void;
 }
 export interface CarProps {
-    car:string;
+    
     city_mpg: number;
     class:string;
     combination_mpg: number;
     cylinders: number;
     displacement:number;
-    dirve:string;
+    drive:string;
     fuel_type: string;
     highway_mpg:number;
     make: string;
     model: string;
     transmission: string;
+    year: number;
 
 }
