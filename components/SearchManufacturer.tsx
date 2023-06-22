@@ -7,6 +7,7 @@ import { manufacturers } from '@/constants'
 
 
 const SearchManufacturer = ({manufacturer, setManufacturer}:SearchManufacturerProps) => {
+                                                          
     const [query, setQuery] = useState("")
 
     const filteredManufacturers =
@@ -21,7 +22,7 @@ const SearchManufacturer = ({manufacturer, setManufacturer}:SearchManufacturerPr
 
 
   return (
-    <div className='search-manufacturer'>
+    <div className='search-manufacturer h-full'>
       <Combobox>
       <div className='relative w-full'>
       <Combobox.Button className='absolute top-[14px]'>
@@ -57,7 +58,7 @@ const SearchManufacturer = ({manufacturer, setManufacturer}:SearchManufacturerPr
                   value={query}
                   className='search-manufacturer__option'
                 >
-                  Create "{query}"
+                   "{query}" not found
                 </Combobox.Option>
               ) : (
                 filteredManufacturers.map((item) => (
@@ -91,6 +92,7 @@ const SearchManufacturer = ({manufacturer, setManufacturer}:SearchManufacturerPr
           </Transition>
         </div>
       </Combobox>
+      
     </div>
   )
 }
