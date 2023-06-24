@@ -8,7 +8,7 @@ import { resourceLimits } from 'worker_threads';
 export default async function Home({ searchParams }) {
 
   const allCars = await fetchCars( {
-    manufacturer:searchParams.manufacurer || "",
+    manufacturer:searchParams.manufacturer || "",
     year: searchParams.year || 2022,
     fuel: searchParams.fuel || "",
     limit: searchParams.limit || 10,
