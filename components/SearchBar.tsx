@@ -52,7 +52,7 @@ const updateSearchParams = (model: string, manufacturer: string) => {
     searchParams.delete('manufacturer')
   }
 
-  const newPathname = `$(window.location.pathname)?${searchParams.toString()}`
+  const newPathname = `${window.location.pathname}?${searchParams.toString()}`
 
   router.push(newPathname)
 
