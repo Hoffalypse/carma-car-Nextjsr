@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import {SearchBar, CustomFilter, Hero, CarCard } from '../components'
+import {SearchBar, CustomFilter, Hero, CarCard, ShowMore } from '../components'
 import { fetchCars } from '@/utils'
 import { fuels, yearsOfProduction } from '@/constants';
 import { resourceLimits } from 'worker_threads';
@@ -36,6 +36,9 @@ export default async function Home({ searchParams }) {
             {allCars?.map((car) => 
             <CarCard car= {car} />)}
           </div>
+          <ShowMore pageNumber = {(searchParams.limit || 10) / 10} 
+          isNext={(searchParams.limit || 10) > allCars.length}
+          />
         </section>)
         :( <div className='home__error-container'>
         <h2 className='text-black text-xl font-bold'>Sorry, No Results</h2>
