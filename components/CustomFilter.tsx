@@ -36,7 +36,7 @@ const CustomFilter = ({ title, options }: CustomFilterProps) => {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <Listbox.Options className="cutome-filter__options">
+            <Listbox.Options className="custom-filter__options">
               {options.map((option) => (
                 <Listbox.Option
                   key={option.title}
