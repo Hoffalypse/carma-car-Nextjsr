@@ -32,7 +32,7 @@ const CarCard = ({car}: CarCardProps) => {
         </div>
         <div className='relative flex w-full mt-2'>
           <div className='flex group-hover:invisible w-full justify-between text-gray'>
-            <div className='fkex flex-col justify-center items-center gap-2'>
+            <div className='flex flex-col justify-center items-center gap-2'>
               <Image 
               src='/steering-wheel.svg' 
               alt='steering wheel'
@@ -43,7 +43,7 @@ const CarCard = ({car}: CarCardProps) => {
               {transmission === 'a' ? "Automatic" : "Manual"}
               </p>
             </div>
-            <div className='fkex flex-col justify-center items-center gap-2'>
+            <div className='flex flex-col justify-center items-center gap-2'>
               <Image 
               src='/tire.svg' 
               alt='tire'
@@ -54,7 +54,7 @@ const CarCard = ({car}: CarCardProps) => {
               {drive.toLocaleUpperCase()}
               </p>
             </div>
-            <div className='fkex flex-col justify-center items-center gap-2'>
+            <div className='flex flex-col justify-center items-center gap-2'>
               <Image 
               src='/gas.svg' 
               alt='gas mileage'
