@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p style="text-align: center">
+  <img src=./public/logo.png width=400>
+<p>
 
-## Getting Started
+## Index
 
-First, run the development server:
+1. [Description](#description)
+3. [Usage](#usage)
+4. [Technology](#technology)
+4. [Preview](#preview)
+4. [Installation](#installation)
+6. [Contributing](#contributing)
+7. [Resources](#resources)
+8. [License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a mock car rental app to display and develop skills using Nextjs, Typescript and TailwindCSS. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To use the site enter a make (with autocomplete) and model of a vehicle. The page will render all availatable types of this vehicle, gas milage and rental price. User can find out further details about each car including additional photos by clicking the view more button that displays when a particular car is hovered over with the mouse. Cars can also be sorted by model year and fuel type. (daily rental cost is an estimate based on algorythym. taking in factors of year, car type and purchase price) 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technology
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. `Nextjs:` React Library
+2. `Git/Github:` Repo and version management.
+3. `TailwindCSS`: For majority of the CSS styling.
+4. `OpenAI, DALL-E`: API used to render the image
+5. `Vercel`: Deployment.
+6. NPM Packages: `Headless-UI`, `Mongoose`
+7. `TypeScript:` Strong Variable types 
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Preview
+
+ <br/>
+ <p style="text-align: center">
+<img src="./public/carma-app2.png" width="800" height="600">
+
+
+
+
+## Installation
+
+Setup: 
+- (1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install the dependencies), (5) Launch Server = "npm run dev". 
+
+## Contributing
+
+Contributor Covenant Code of Conduct
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)
+
+
+## Resources
+
+1. GitHub Repo: <https://github.com/Hoffalypse/carma-car-nextjs>
+2. Vercel Deploy: <https://carma-car-rental.vercel.app/> 
+
+
+## License
+
+[![License:  MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the terms of the <span style="color:red">The MIT License</span>. Please click on the license badge for more information.
