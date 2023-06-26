@@ -28,10 +28,9 @@ To use the site enter a make (with autocomplete) and model of a vehicle. The pag
 1. `Nextjs:` React Library
 2. `Git/Github:` Repo and version management.
 3. `TailwindCSS`: For majority of the CSS styling.
-4. `OpenAI, DALL-E`: API used to render the image
-5. `Vercel`: Deployment.
-6. NPM Packages: `Headless-UI`, `Mongoose`
-7. `TypeScript:` Strong Variable types 
+4. `Vercel`: Deployment.
+5.  NPM Packages: `Headless-UI`, `Mongoose`
+6. `TypeScript:` Strong Variable types 
 
 
 
