@@ -5,7 +5,7 @@ import { CarProps } from '@/types'
 import { calculateCarRent, generateCarImageUrl } from '@/utils'
 import CustomButton from './CustomButton'
 import CarDetails from './CarDetails'
-
+//setup of car cards 
 interface CarCardProps {
   car: CarProps
 }
